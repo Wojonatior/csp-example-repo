@@ -50,6 +50,7 @@ function MapComponent() {
 function App() {
   return (
     <div className="App">
+      <h2>Content from the React App</h2>
       <MapComponent />
     </div>
   );
