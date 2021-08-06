@@ -4,7 +4,7 @@ const app = Express();
 const PORT = process.env.PORT || 3000;
 
 const setCSPHandler = (req, res, next) => {
-  res.set('Content-Security-Policy', "default-src: 'self'");
+  res.set('Content-Security-Policy', "default-src 'self'");
   next();
 };
 
